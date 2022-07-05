@@ -6,8 +6,24 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vardhan2507/pm2-logs-notify"
+  },
+  "keywords": [
+    "pm2",
+    "slack"
+  ],
   "author": "Vardhan",
-  "license": "ISC",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vardhan2507/pm2-logs-notify/blob/main/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/vardhan2507/pm2-logs-notify/issues"
+  },
   "dependencies": {
     "axios": "^0.27.2",
     "pm2": "^5.2.0",
